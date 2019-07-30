@@ -18,6 +18,10 @@ li{
   margin: auto !important;
 }
 
+#scroll{
+  border:none !important;
+  background: white !important;
+}
 
 
 @media only screen and (max-width: 880px) {
@@ -73,6 +77,8 @@ li{
   ul{
     padding: 0px !important;
   }
+
+  
 
   .div-advantage{
     padding: 0px !important;
