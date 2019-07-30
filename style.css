@@ -158,9 +158,9 @@ box-shadow: 2px 2px 31px 0px rgba(120,120,120,1);
 
 header {
   height: 60vh;
-  /* background-image: linear-gradient(to right bottom, #3aafad, #34b0b9, #35b1c5, #3db2cf, #4ab2d8, #52b0dc, #5caedf, #66ace1, #6ba8e0, #71a3df, #779fdd, #7e9adb); */
+  background-image: linear-gradient(to right bottom, #3aafad, #34b0b9, #35b1c5, #3db2cf, #4ab2d8, #52b0dc, #5caedf, #66ace1, #6ba8e0, #71a3df, #779fdd, #7e9adb); 
 
-  background-image: linear-gradient(to right bottom, #4bb0ae, #39b0c3, #3fadd6, #5ea8e2, #85a1e6, #9b9ae3, #b193dc, #c48cd1, #cd86c8, #d480be, #db7bb3, #e076a7);
+  /* background-image: linear-gradient(to right bottom, #4bb0ae, #39b0c3, #3fadd6, #5ea8e2, #85a1e6, #9b9ae3, #b193dc, #c48cd1, #cd86c8, #d480be, #db7bb3, #e076a7); */
   color: white;
 }
 
