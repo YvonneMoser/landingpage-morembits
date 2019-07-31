@@ -66,8 +66,12 @@ li{
     text-align: center
   }
   h1{
-    font-size: 1.5rem !important;
+    font-size: 2rem !important;
+  }
+
+  .header-text{
     margin-bottom: 0px !important;
+    font-size: 1.5rem !important;
   }
 }
 
@@ -77,19 +81,44 @@ li{
   }
 }
 
+@media only screen and (max-width: 819px) {
+  .circle{
+    height: 100px !important;
+  }
+  .fa-dollar-sign{
+    font-size: 40px !important;
+  }
+
+  .fa-search{
+    font-size: 40px !important;
+  }
+
+  .fa-brain{
+    font-size: 40px !important;
+  }
+
+  .container-advantages{
+    height: fit-content !important;
+  }
+
+  h1{text-align: center !important}
+}
+
 @media only screen and (max-width: 530px) {
   .header-text{
     font-size: 25px;
     max-width: 80vw !important;
+    margin-bottom: 0px !important;
+    font-size: 1.5rem !important;
   }
   .container-shadow{
     width: 80vw !important;
   }
 
   h1{
-    font-size: 1.5rem !important;
-    margin-bottom: 0px !important;
+    font-size: 2rem !important;
   }
+
 
   .hidden-text{
     display: none;
@@ -202,7 +231,7 @@ input[type="text"]{
   padding: 30px;
   margin: 20px;
   width: 320px;
-  height: 400px;
+  height: 330px;
   border-radius: 20px
 }
 
