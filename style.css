@@ -187,6 +187,10 @@ input[type="text"]{
   list-style: square !important;
 }
 
+button:focus{
+  outline: none !important;
+}
+
 header {
   height: 55vh;
   /* background-image: linear-gradient(to right bottom, #3aafad, #34b0b9, #35b1c5, #3db2cf, #4ab2d8, #52b0dc, #5caedf, #66ace1, #6ba8e0, #71a3df, #779fdd, #7e9adb);  */
