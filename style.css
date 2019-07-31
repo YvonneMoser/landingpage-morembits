@@ -43,6 +43,10 @@ li{
   li{
     text-align: center
   }
+  h1{
+    font-size: 1.5rem !important;
+    margin-bottom: 0px !important;
+  }
 }
 
 @media only screen and (max-width: 705px) {
@@ -61,7 +65,7 @@ li{
   }
 
   h1{
-    font-size: 2rem !important;
+    font-size: 1.5rem !important;
     margin-bottom: 0px !important;
   }
 
@@ -151,15 +155,33 @@ input[type="text"]{
 .circle{
   margin: auto; 
   text-align: center; 
-  width: 200px; 
+  width: 320px; 
   height: 200px; 
   display: flex; 
   justify-content:center; 
   align-items:center;
   border: 1px solid white;
-  border-radius: 100px;
+  border-radius: 20px;
   background-color: white;
-  opacity: 0.5;
+  opacity: 0.7;
+}
+
+.container-advantages{
+  background: white;
+  opacity: 0.7;
+  color: #2eacaf;
+  -webkit-box-shadow: 2px 2px 31px 0px rgba(120,120,120,1);
+  -moz-box-shadow: 2px 2px 31px 0px rgba(120,120,120,1);
+  box-shadow: 2px 2px 31px 0px rgba(120,120,120,1);
+  padding: 30px;
+  margin: 20px;
+  width: 320px;
+  height: 400px;
+  border-radius: 20px
+}
+
+.container-advantages li {
+  list-style: square !important;
 }
 
 header {
@@ -173,7 +195,8 @@ header {
 .section-blue{
   padding: 50px;
   min-height: 100vh;
-  background-image: linear-gradient(to right bottom, #3aafad, #34b0b9, #35b1c5, #3db2cf, #4ab2d8, #52b0dc, #5caedf, #66ace1, #6ba8e0, #71a3df, #779fdd, #7e9adb);
+  /* background-image: linear-gradient(to right bottom, #3aafad, #34b0b9, #35b1c5, #3db2cf, #4ab2d8, #52b0dc, #5caedf, #66ace1, #6ba8e0, #71a3df, #779fdd, #7e9adb); */
+  background-image: linear-gradient(to right bottom, #4bb0ae, #39b0c3, #3fadd6, #5ea8e2, #85a1e6, #9b9ae3, #b193dc, #c48cd1, #cd86c8, #d480be, #db7bb3, #e076a7);
   color: white;
   display: flex;
   flex-direction: column;
