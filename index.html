@@ -11,7 +11,7 @@
 
   <title>MoreMbits</title>
 </head>
-<body>
+<body id="start">
   <header>
       <div id='stars'></div>
       <div id='stars2'></div>
@@ -120,6 +120,7 @@
         <button style="margin: 20px" type="submit" class="btn subscribe-button">Subscribe</button>
       </form>
     </div>
+    <button id="up-button" style="border:none; cursor: pointer; background: transparent; width: fit-content; align-self: flex-end"><i style="color: white; font-size: 30px" class="fas fa-chevron-up"></i></button>
   </section>
   <!-- <section id="section-blue" class="section-blue">
     <h1>Warum MoreMbits?</h1>
@@ -159,7 +160,13 @@
 $("#scroll").click(function(){
   $('html, body').animate({
     scrollTop: $("#section-blue").offset().top
-}, 1000);
+}, 1700);
+})
+
+$("#up-button").click(function(){
+  $('html, body').animate({
+    scrollTop: $("#start").offset().top
+}, 1700);
 })
 
 
