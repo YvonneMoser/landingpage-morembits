@@ -144,7 +144,10 @@ input[type="text"]{
   padding: 30px;
   height: 52vh;
   width: 40vw;
-  border-radius: 3px
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center
 }
 
 .flex-column{
