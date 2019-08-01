@@ -4,6 +4,7 @@
 
 main{
   min-height: 45vh;
+  padding: 0px 50px;
 }
 
 header {
@@ -29,6 +30,11 @@ header {
 }
 
 /* Container */
+
+.description-container{
+  width: 320px;
+  margin: 0px 20px;
+}
 
 .circle{
   margin: auto;
@@ -98,6 +104,11 @@ input[type="text"]{
   justify-content: center
 }
 
+.container{
+  padding: 0px !important;
+  margin: 0px !important
+}
+
 
 /* Alignments */
 .text-align-centered{
@@ -108,7 +119,10 @@ input[type="text"]{
   margin: 0px !important
 }
 .margin-30{
-  margin: 30px;
+  margin: 30px 0px;
+}
+.margin-50{
+  margin: 50px;
 }
 
 .margin-auto{
@@ -175,6 +189,7 @@ li{
 .container-advantages li {
   list-style: square !important;
 }
+
 
 
 /* Buttons */

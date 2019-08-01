@@ -18,13 +18,13 @@
       <div id='stars3'></div>
 
       <!-- <h1 style="margin:20px">MoreMbits</h1> -->
-      <img style="width: 200px; margin: 20px" src="./white.png" alt="">
+      <img style="width: 200px; margin: 20px 50px" src="./white.png" alt="">
       <div class="flex-row">
           <h1 class="header-text fade-right">Ständiger Ärger mit deiner Internetverbindung? <br/><br/> <span style="font-weight: bolder;">MoreMbits</span> macht dein Internet besser!</h1>
           <div class="container-shadow fade-left">
             <h2 class="primary-color text-align-centered">Bleib informiert!</h2>
             <p style="color:black" class="hidden-text text-align-centered padding: 20px">Du willst einer der Ersten sein? Trage dich jetzt unverbindlich ein und wir informieren dich sobald wir live gehen!</p>
-            <button id="open-formfield" class="btn subscribe-button" style="margin: 20px auto !important">Sei dabei!</button>
+            <button id="open-formfield" class="btn subscribe-button" style="font-size:20px; margin: 20px auto !important">Sei dabei!</button>
             <form id="formfield-newsletter" style="display: none" action="https://getform.io/f/3707d742-0eee-42be-ae82-584353dc729c" method="POST" class="flex-column">
               <div  class="form-group row">
                 <label class="col-form-label" style="margin: auto 10px" for=""><i class="icons-newsletter-1 far fa-user"></i></label>
@@ -41,19 +41,19 @@
   </header>
   <main>
     <h1 class="primary-color margin-30">Wie funktionierts?</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm">
+    <div class="flex-row justify-content-evenly">
+      <div style="width:100% !important" class="row justify-content-evenly">
+        <div class="description-container">
           <h3 class="text-align-centered" ><i class="icons-first-page fas fa-tachometer-alt"></i></h3>
           <p class="text-align-centered" class="text-align-centered">Mit einem Klick startest du automatisierte Speedtests auf deinem Computer</p>
         </div>
-        <div class="col-sm">
+        <div class="description-container">
             <h3 class="text-align-centered"><i class="icons-first-page fas fa-chart-line"></i></h3>
             <p class="text-align-centered">Wir analysieren deine Speedtests & machen deine Internetqualität transparent</p>
         </div>
-        <div class="col-sm">
+        <div class="description-container">
           <h3 class="text-align-centered"><i class="icons-first-page far fa-paper-plane"></i></h3>
-          <p class="text-align-centered">Egal ob Kosten sparen, bessere Internetverbindung oder frühzeitige Kündigung. Wir reklamieren bei deinem Anbieter!</p>
+          <p class="text-align-centered">Kosten sparen, bessere Internetverbindung oder frühzeitige Kündigung? Wir reklamieren bei deinem Anbieter!</p>
         </div>
       </div>
     </div>
@@ -97,15 +97,16 @@
         <div class="container-advantages">
           <h3 class="text-align-centered" style="margin-bottom: 25px">Nerven sparen</h3>
           <p class="text-align-centered">
-            Keine Lust auf lästige Verhandlungen mit deinem Anbieter? Wir reklamieren für dich! Wir kennen uns mit den Richtlinien der Internetanbieter aus und setzen uns mit Patent-Anwälten für deine Recht ein! 
+            Keine Lust auf lästige Verhandlungen mit deinem Anbieter? Wir reklamieren für dich! 
           </p>
         </div>
       </div>
     </div>
 
-    <div>
+    <div class="text-align-centered">
       <h2 class="text-align-centered" style="font-size: 1.5rem; margin-top: 25px">Erfahre als Erster, wenn wir live gehen!</h2>
-      <form action="https://getform.io/f/3707d742-0eee-42be-ae82-584353dc729c" method="POST" class="flex-row">
+      <button id="open-formfield-2" class="btn subscribe-button" style="font-size:20px; margin: 20px auto !important">Sei dabei!</button>
+      <form id="formfield-newsletter-2" style="display:none" action="https://getform.io/f/3707d742-0eee-42be-ae82-584353dc729c" method="POST" class="flex-row">
         <div  class="flex-row div-newsletter" style="flex-wrap: nowrap">
           <label class="label-newsletter  col-form-label" style="margin: auto 10px" for=""><i class="icons-newsletter far fa-user"></i></label>
           <input placeholder="Name" class="input-newsletter-2 form-control" type="text" name="name" id="name">
@@ -141,6 +142,11 @@ $("#up-button").click(function(){
 $("#open-formfield").click(function(){
   $("#open-formfield").hide();
   $("#formfield-newsletter").show();
+})
+
+$("#open-formfield-2").click(function(){
+  $("#open-formfield-2").hide();
+  $("#formfield-newsletter-2").show();
 })
 
 </script>
